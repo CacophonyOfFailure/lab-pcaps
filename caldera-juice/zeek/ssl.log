@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2025-12-16-22-24-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1765837569.988640	C1O3TD3jEQT4M3lIXf	10.2.20.10	38850	151.101.2.49	443	TLSv12	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256	x25519	cdn.fwupd.org	F	-	h2	T	CsxuknGIi	c4108b141a533078b367281d7aafa09d3bc609d45b6a934be01b90540681f6af,f5165fc624453361e3a131c6ad90893a8de40158921a94e8a4b445398eedf6e0	(empty)	T
+1765837570.136232	Ck5Wxu4EjfnCQlhZf	10.2.20.10	59386	151.101.194.49	443	TLSv12	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256	x25519	cdn.fwupd.org	F	-	h2	T	CsxuknGIi	c4108b141a533078b367281d7aafa09d3bc609d45b6a934be01b90540681f6af,f5165fc624453361e3a131c6ad90893a8de40158921a94e8a4b445398eedf6e0	(empty)	T
+1765840384.977652	CZMhPph2DPVPOF3Bl	10.2.20.10	38832	34.254.182.186	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	motd.ubuntu.com	F	-	-	T	CsxknGIti	eccd9dcfb10f2bb96807b3f639d7b68171490a919d900f0d34cb20531486995e,d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354	(empty)	T
+1765870685.042579	Cawynu2YU6nJCHf4q9	10.2.20.10	38948	54.217.10.153	443	-	-	-	motd.ubuntu.com	F	-	-	F	C	-	-	-
+#close	2025-12-16-22-24-36

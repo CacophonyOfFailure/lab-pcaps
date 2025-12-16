@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2025-12-16-22-24-35
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1765837570.015905	c4108b141a533078b367281d7aafa09d3bc609d45b6a934be01b90540681f6af	3	014C8556FA500093E7E328C826411F0B	CN=cdn.fwupd.org	CN=GlobalSign Atlas R3 DV TLS CA 2025 Q4,O=GlobalSign nv-sa,C=BE	1765828878.000000	1800129677.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	cdn.fwupd.org	-	-	-	F	-	T	F
+1765837570.015905	f5165fc624453361e3a131c6ad90893a8de40158921a94e8a4b445398eedf6e0	3	83DA86AB0E31B19D8F03A5EDD5BDBD66	CN=GlobalSign Atlas R3 DV TLS CA 2025 Q4,O=GlobalSign nv-sa,C=BE	CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R3	1752635195.000000	1815696000.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+1765840388.927381	eccd9dcfb10f2bb96807b3f639d7b68171490a919d900f0d34cb20531486995e	3	05CA045F68AB3A10D4F3F610EC675E8AE16D	CN=motd.ubuntu.com	CN=R13,O=Let's Encrypt,C=US	1762330473.000000	1770106472.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	motd.ubuntu.com	-	-	-	F	-	T	F
+1765840388.927381	d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354	3	5A00F212D8D4B480F3924157EA298305	CN=R13,O=Let's Encrypt,C=US	CN=ISRG Root X1,O=Internet Security Research Group,C=US	1710288000.000000	1804895999.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2025-12-16-22-24-36

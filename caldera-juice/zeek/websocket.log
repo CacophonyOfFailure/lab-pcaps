@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	websocket
+#open	2025-12-16-22-24-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	host	uri	user_agent	subprotocol	client_protocols	server_extensions	client_extensions
+#types	time	string	addr	port	addr	port	string	string	string	string	vector[string]	vector[string]	vector[string]
+1765838327.089372	CWQaK41Bqy7XWau9l6	198.51.100.2	59578	10.2.20.10	80	10.2.20.10	/socket.io/?EIO=4&transport=websocket&sid=XaaiSnk5URQkUCvQAAAA	Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36	-	-	-	permessage-deflate; client_max_window_bits
+1765838509.657783	C14J8D1PqtcbucgCj1	198.51.100.2	37694	10.2.20.10	80	10.2.20.10	/socket.io/?EIO=4&transport=websocket&sid=EpjNFPJpaGZiDrIJAAAC	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	-	-	permessage-deflate
+1765838548.411354	CjyIRc2v5L5RQjJhr6	198.51.100.2	57398	10.2.20.10	80	10.2.20.10	/socket.io/?EIO=4&transport=websocket&sid=mK0AavytEyYCe-tRAAAE	Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36	-	-	-	permessage-deflate; client_max_window_bits
+1765838703.346369	CFhdI9mZAdylwj6Xg	198.51.100.2	49430	10.2.20.10	80	10.2.20.10	/socket.io/?EIO=4&transport=websocket&sid=YTJbx0qoouvTnUQ1AAAG	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	-	-	permessage-deflate
+1765838754.672554	C9P4Zf2bI8CDnEOjk8	198.51.100.2	41962	10.2.20.10	80	10.2.20.10	/socket.io/?EIO=4&transport=websocket&sid=y1v9Wq0Wy8yzlxfOAAAI	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0	-	-	-	permessage-deflate
+#close	2025-12-16-22-24-36

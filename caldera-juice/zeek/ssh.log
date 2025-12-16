@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2025-12-16-22-24-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1765837828.223585	CoAYIQ1K9aoPu1geo6	198.51.100.2	34596	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837828.217663	CS8cjE4q4VgCahHX05	198.51.100.2	34592	10.2.20.10	22	2	-	0	-	SSH-2.0-Go	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	aes128-ctr	hmac-sha2-256	none	curve25519-sha256@libssh.org	ecdsa-sha2-nistp256	44:5d:37:b3:4a:e7:db:ad:2f:d2:9f:5a:0e:01:57:4d
+1765837848.223687	ChjIL1KMYTSe3p9Ve	198.51.100.2	60148	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837880.176724	C6sT232TMm1xmiGlJh	198.51.100.2	52678	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837878.216841	CrMzqz28rfloBfKnKg	198.51.100.2	52674	10.2.20.10	22	2	F	1	-	SSH-2.0-Go	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	aes128-ctr	hmac-sha2-256	none	curve25519-sha256@libssh.org	ecdsa-sha2-nistp256	44:5d:37:b3:4a:e7:db:ad:2f:d2:9f:5a:0e:01:57:4d
+1765837898.227877	Cf3p3zS1HhBD5TFOj	198.51.100.2	57128	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837898.229989	CWo5E51hfw9NNQoZa	198.51.100.2	57130	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837898.231581	C17Ybp1vfkLZhYWS09	198.51.100.2	57136	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837899.191903	CWzHAd1gK3iuNS4pA	198.51.100.2	57144	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837900.188771	CfT4v622hjO4foTpH4	198.51.100.2	57150	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837900.188770	CrTH1X1VoBHwEwOTLj	198.51.100.2	57146	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837900.197081	CnIrJpYQs1HGWojPj	198.51.100.2	57152	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837908.239939	CAznPi4VDvCsW9OmN2	198.51.100.2	42230	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837908.232665	CnGoD02GhzZVQWK6e6	198.51.100.2	42220	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837908.237715	CPUEZTrUOrn1DGjm9	198.51.100.2	42262	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837908.240286	CEpdzb3QNewAZbN5Og	198.51.100.2	42246	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837908.240924	CFGsJO6JN3SGl1F96	198.51.100.2	42278	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.250738	C5L2AT3lNa7PqAcrsa	198.51.100.2	38280	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.250539	C6pj9n4Bz67dxMWkfl	198.51.100.2	38268	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.252398	C9hR1U1bmLlKsiF58h	198.51.100.2	38288	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.254278	C86u0x30uKt45mrip4	198.51.100.2	38306	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.246389	ClW4wT1q3c2WflFHBl	198.51.100.2	38322	10.2.20.10	22	-	-	0	-	SSH-1337-OpenSSH_9.0	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.244308	Clky8530aZVPrqozre	198.51.100.2	38260	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765837918.247942	CNeCVu3l7Uv7lbQvF3	198.51.100.2	38296	10.2.20.10	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14	-	-	-	-	-	-
+1765864881.594822	CGi51S3skEGAXv63u	198.51.100.2	51756	10.2.20.17	22	2	T	1	-	SSH-2.0-OpenSSH_10.2p1 Debian-3	SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u6	chacha20-poly1305@openssh.com	umac-64-etm@openssh.com	none	sntrup761x25519-sha512	ssh-ed25519	4e:b2:a1:2b:f9:86:bd:68:e4:93:51:49:c8:f2:2f:41
+1765864895.921253	C4Yw4i3N1B9WaaeLnj	198.51.100.2	53832	10.2.20.17	22	2	T	1	-	SSH-2.0-OpenSSH_10.2p1 Debian-3	SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u6	chacha20-poly1305@openssh.com	umac-64-etm@openssh.com	none	sntrup761x25519-sha512	ssh-ed25519	4e:b2:a1:2b:f9:86:bd:68:e4:93:51:49:c8:f2:2f:41
+1765915820.029429	CrR2EX134U8rA0uP31	198.51.100.2	37348	10.2.20.17	22	2	T	1	-	SSH-2.0-OpenSSH_10.2p1 Debian-3	SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u6	chacha20-poly1305@openssh.com	umac-64-etm@openssh.com	none	sntrup761x25519-sha512	ssh-ed25519	4e:b2:a1:2b:f9:86:bd:68:e4:93:51:49:c8:f2:2f:41
+#close	2025-12-16-22-24-36

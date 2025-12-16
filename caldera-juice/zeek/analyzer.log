@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-12-16-22-24-34
+#fields	ts	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	failure_reason	failure_data
+#types	time	string	string	string	string	addr	port	addr	port	enum	string	string
+1765835651.259959	protocol	HTTP	CTnYjD2pibAExgV20k	-	198.51.100.2	51818	10.2.20.10	80	tcp	not a http request line	-
+1765837247.148384	protocol	HTTP	CACY9G2be0IMRp3ANl	-	198.51.100.2	57396	10.2.20.10	80	tcp	not a http request line	-
+1765837287.161990	protocol	HTTP	C6FUVvvCWkQ25azJ2	-	198.51.100.2	36228	10.2.20.10	80	tcp	not a http request line	-
+1765837804.124135	protocol	HTTP	COWA4H120es9af3oCa	-	198.51.100.2	49296	10.2.20.10	80	tcp	not a http request line	-
+1765837806.129325	protocol	HTTP	CSemGba30na3qWPKb	-	198.51.100.2	49726	10.2.20.10	80	tcp	not a http request line	-
+#close	2025-12-16-22-24-36
